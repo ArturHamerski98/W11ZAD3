@@ -92,7 +92,7 @@ int main()
         }
 
     }
-    
+    //Tu wpisuje sie uzytkownikow, dla ktorych badamy dystans
     BFS bfs(&NodesVector[2], &NodesVector[6]);
     bfs.findPath();
     return 0;
